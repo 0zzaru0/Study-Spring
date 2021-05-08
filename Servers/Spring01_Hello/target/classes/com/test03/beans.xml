@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 전에 mtest에서 객체를 생성했었다면 지금은 bean부터 생성, 필요 위치에 넣기-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="korean" class="com.test03.MessageBeanKo"></bean>
+	<bean id="english" class="com.test03.MessageBeanEn"></bean>
+
+</beans>
